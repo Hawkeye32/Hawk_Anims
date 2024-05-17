@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+   
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_Vagina</defName>
+        <variants>
+            <li>AnimationProps/Vagina/Vagina_south1</li>
+			<li>AnimationProps/Vagina/Vagina_south2</li>
+            <li>AnimationProps/Vagina/Vagina_south3</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+    
+</Defs>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnRenderNodeTagDef>
+		<defName>RenderNodeTag_XrayBMir</defName>
+	</PawnRenderNodeTagDef>
+
+	<Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_XrayBMir</defName>		
+		<!-- Note: props always return graphic_multi; set cardinal textures to blank and only north in anim if only one tex-->
+		<!-- or draw east, south, and west directions, use them in animations? -->
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<debugLabel>AnimProp_XrayBMir</debugLabel>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>			
+			<tagDef>RenderNodeTag_XrayBMir</tagDef>
+			<parentTagDef></parentTagDef>
+			<texPath>AnimationProps/Xray/Background/XR-BackgroundMir</texPath>
+			<!-- for height -->
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>80</baseLayer>
+            <texPathVariantsDef>
+			</texPathVariantsDef>
+			<absoluteTransform>True</absoluteTransform>			
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+    
+    <PawnRenderNodeTagDef>
+		<defName>RenderNodeTag_XrayOMir</defName>
+	</PawnRenderNodeTagDef>
+
+	<Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_XrayOMir</defName>		
+		<!-- Note: props always return graphic_multi; set cardinal textures to blank and only north in anim if only one tex-->
+		<!-- or draw east, south, and west directions, use them in animations? -->
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<debugLabel>AnimProp_XrayOMir</debugLabel>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>			
+			<tagDef>RenderNodeTag_XrayOMir</tagDef>
+			<parentTagDef></parentTagDef>
+			<texPath>AnimationProps/Xray/Overlay/XR-OverlayMir</texPath>
+			<!-- for height -->
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>120</baseLayer>
+            <texPathVariantsDef>TexPathVariants_XrayOMir</texPathVariantsDef>
+			<absoluteTransform>True</absoluteTransform>			
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+    
+    <PawnRenderNodeTagDef>
+		<defName>RenderNodeTag_XrayDMir</defName>
+	</PawnRenderNodeTagDef>
+
+	<Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_XrayDMir</defName>		
+		<!-- Note: props always return graphic_multi; set cardinal textures to blank and only north in anim if only one tex-->
+		<!-- or draw east, south, and west directions, use them in animations? -->
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<debugLabel>AnimProp_XrayDMir</debugLabel>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>			
+			<tagDef>RenderNodeTag_XrayDMir</tagDef>
+			<parentTagDef></parentTagDef>
+			<texPath>AnimationProps/Xray/Dick/XR-DickMir</texPath>
+			<!-- for height -->
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>100</baseLayer>
+            <texPathVariantsDef>TexPathVariants_XrayDMir</texPathVariantsDef>
+			<absoluteTransform>True</absoluteTransform>			
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+    
+    
+</Defs>

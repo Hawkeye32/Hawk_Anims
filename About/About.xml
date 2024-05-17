@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>rjwanimaddons_hawkstuff</name>
+    <author>Hawkeye32</author>
+    <packageId>Hawkeye32.Hawks.Anims</packageId>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>
+    A couple of animations for RJW 1.5 credits to Tory for xray graphics and basic fuck animation.
+    Also requires Sextra2 animation pack from Tory for some sounds.
+    </description>
+    <modDependencies>
+		<li>
+			<packageId>c0ffee.rimworld.animations</packageId>
+			<displayName>Rimworld-Animations</displayName>
+			<downloadUrl>https://gitgud.io/Platinumspoons/rimworld-animations/-/tree/master</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>c0ffee.rimworld.animations</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.AnimationOffsetDef>
+		<defName>HawkButterflyOffsetRec</defName>
+		<offsets>
+
+			<li Class="Rimworld_Animations.AnimationOffset_BodyType">
+				<races>
+					<li>Human</li>
+				</races>
+				<offsets>
+					<li><bodyType>Hulk</bodyType><offset>(0.13, 0, 0)</offset></li>
+					<li><bodyType>Thin</bodyType><offset>(-0.05, 0, 0)</offset></li>
+				</offsets>
+			</li>
+			
+			<li Class="Rimworld_Animations.AnimationOffset_Single">
+				<races>
+					<li>Warg</li>
+					<li>Wolf_Timber</li>
+					<li>Wolf_Arctic</li>
+					<li>Fox_Fennec</li>
+					<li>Fox_Red</li>
+					<li>Fox_Arctic</li>
+					<!-- Races_Animal_Pet -->
+					<li>YorkshireTerrier</li>
+					<li>Husky</li>
+					<li>LabradorRetriever</li>
+				</races>
+				<rotation>0</rotation>
+			</li>
+
+		</offsets>
+	</Rimworld_Animations.AnimationOffsetDef>
+</Defs>
+	

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>HawkButterflyFuck</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>10</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>HawkbutterflyM1</li>
+							<li>HawkButterflyF1</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>20</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>HawkbutterflyM2</li>
+							<li>HawkButterflyF2</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+            <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>5</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>HawkbutterflyM3</li>
+							<li>HawkButterflyF3</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+		</animationStages>
+		
+		<contexts>
+			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+				<priority>1</priority>
+				<interactionDefs>
+					<li>Sex_Anal</li>
+					<li>Sex_Vaginal</li>
+				</interactionDefs>
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+				<priority>1</priority>
+				<actorShift>1</actorShift>
+				<interactionDefs>
+					<li>Sex_Reverse_Anal</li>
+					<li>Sex_Reverse_Vaginal</li>
+			    </interactionDefs>
+			</li>
+		</contexts>
+
+		<offsetDefs>
+			<li>HawkButterflyOffsetInit</li>
+			<li>HawkButterflyOffsetRec</li>
+		</offsetDefs>
+
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>

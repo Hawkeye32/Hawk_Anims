@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnRenderNodeTagDef>
+		<defName>RenderNodeTag_VaginaR</defName>
+	</PawnRenderNodeTagDef>
+
+	<Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_VaginaR</defName>		
+		<!-- Note: props always return graphic_multi; set cardinal textures to blank and only north in anim if only one tex-->
+		<!-- or draw east, south, and west directions, use them in animations? -->
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<debugLabel>AnimProp_VaginaR</debugLabel>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>			
+			<tagDef>RenderNodeTag_VaginaR</tagDef>
+			<parentTagDef></parentTagDef>
+			<texPath>AnimationProps/Vagina/Vagina_south</texPath>
+			<!-- for height -->
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>80</baseLayer>
+            <texPathVariantsDef>TexPathVariants_Vagina</texPathVariantsDef>
+			<colorType>Skin</colorType>
+			<useSkinShader>True</useSkinShader>	
+			<propOffsetDef>PropOffsetDef_VaginaR</propOffsetDef>
+					
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+</Defs>

@@ -1,0 +1,14 @@
+rjwanimaddons_hawkstuff:
+
+2024/05/16: More Bug Fixes, Added HumanPxDog animation.
+
+2024/05/12: Small bug fixes, seperated offset defs into initiator and receiver. Added kyulen support.
+			Removed Sextra 2 requirement.
+
+
+2024/05/09: Changed voices to support built in voices from rjw-animations\
+			Animated Penis (may not be correct for both rimnude and SAR)
+
+2024/05/06: Added animations 2.0 and seXtra2 as requirements. 
+			Added voice soundefs
+			Fixed invisible pawns in some stages of animations.

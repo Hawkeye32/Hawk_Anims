@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>ThroatFuck</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>ThroatFuckM1</li>
+							<li>ThroatFuckF1</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			
+            <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>15</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>ThroatFuckM2</li>
+							<li>ThroatFuckF2</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			  <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>10</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>ThroatFuckM3</li>
+							<li>ThroatFuckF3</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			  <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>5</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>ThroatFuckM4</li>
+							<li>ThroatFuckF4</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+		</animationStages>
+		
+		<contexts>
+		<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+				<priority>1</priority>
+				<interactionDefs>
+					<li>Sex_Fellatio</li>
+					<li>Sex_Handjob</li>
+					<li>Sex_Breastjob</li>
+				</interactionDefs>
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+				<priority>1</priority>
+				<actorShift>1</actorShift>
+				<interactionDefs>
+					<li>Sex_Reverse_Fellatio</li>
+					<li>Sex_Reverse_Handjob</li>
+					<li>Sex_Reverse_Breastjob</li>
+				</interactionDefs>
+			</li>
+			
+		</contexts>
+
+		<offsetDefs>
+			<li>ThroatFuckOffsetInit</li>
+			<li>ThroatFuckOffsetRec</li>
+		</offsetDefs>
+
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>

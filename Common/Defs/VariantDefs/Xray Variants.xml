@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayDMir</defName>
+        <variants>
+            <li>AnimationProps/Xray/Dick/XR-DickMir1</li>
+			<li>AnimationProps/Xray/Dick/XR-DickMir2</li>
+            <li>AnimationProps/Xray/Dick/XR-DickMir3</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayOMir</defName>
+        <variants>
+            <li>AnimationProps/Xray/Overlay/XR-OverlayMir1</li>
+			<li>AnimationProps/Xray/Overlay/XR-OverlayMir2</li>
+            <li>AnimationProps/Xray/Overlay/XR-OverlayMir3</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+     <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayDk</defName>
+        <variants>
+            <li>AnimationProps/Xray/Dick/XR-Dick1</li>
+			<li>AnimationProps/Xray/Dick/XR-Dick2</li>
+            <li>AnimationProps/Xray/Dick/XR-Dick3</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayOy</defName>
+        <variants>
+            <li>AnimationProps/Xray/Overlay/XR-Overlay1</li>
+			<li>AnimationProps/Xray/Overlay/XR-Overlay2</li>
+            <li>AnimationProps/Xray/Overlay/XR-Overlay3</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+    
+
+
+
+
+
+
+
+    
+</Defs>
