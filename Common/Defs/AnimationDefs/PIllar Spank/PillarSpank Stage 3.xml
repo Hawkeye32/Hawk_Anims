@@ -154,7 +154,6 @@
               <visible>true</visible>
               <offset>(0.6, 0, -0.3)</offset>
               <rotation>East</rotation>
-              <sound>Voiceline_FScream</sound>
               <voice>Scream</voice>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">

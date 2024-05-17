@@ -79,7 +79,6 @@
               <offset>(-0.3, 0.2, 0.1)</offset>
               <scale>(0.95, 1, 0.95)</scale>
               <rotation>East</rotation>
-              <sound>Slimey</sound>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
               <tick>120</tick>
