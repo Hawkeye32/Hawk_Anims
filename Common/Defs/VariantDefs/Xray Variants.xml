@@ -22,18 +22,18 @@
      <Rimworld_Animations.texPathVariantsDef>
         <defName>TexPathVariants_XrayDk</defName>
         <variants>
-            <li>AnimationProps/Xray/Dick/XR-Dick1</li>
-			<li>AnimationProps/Xray/Dick/XR-Dick2</li>
-            <li>AnimationProps/Xray/Dick/XR-Dick3</li>
+            <li>AnimationProps/Xray/Dick/XR-DickOld1</li>
+			<li>AnimationProps/Xray/Dick/XR-DickOld2</li>
+            <li>AnimationProps/Xray/Dick/XR-DickOld3</li>
         </variants>
     </Rimworld_Animations.texPathVariantsDef>
 
     <Rimworld_Animations.texPathVariantsDef>
         <defName>TexPathVariants_XrayOy</defName>
         <variants>
-            <li>AnimationProps/Xray/Overlay/XR-Overlay1</li>
-			<li>AnimationProps/Xray/Overlay/XR-Overlay2</li>
-            <li>AnimationProps/Xray/Overlay/XR-Overlay3</li>
+            <li>AnimationProps/Xray/Overlay/XR-OverlayOld1</li>
+			<li>AnimationProps/Xray/Overlay/XR-OverlayOld2</li>
+            <li>AnimationProps/Xray/Overlay/XR-OverlayOld3</li>
         </variants>
     </Rimworld_Animations.texPathVariantsDef>
     
