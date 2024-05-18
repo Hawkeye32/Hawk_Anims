@@ -253,6 +253,20 @@
           </keyframes>
         </value>
       </li>
+      <li>
+        <key>RimNude_Penis</key>
+        <value>
+          <workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+          <keyframes>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>0</tick>
+              <angle>0</angle>
+              <visible>true</visible>
+              <rotation>East</rotation>
+            </li>
+          </keyframes>
+        </value>
+      </li>
     </animationParts>
   </AnimationDef>
   <AnimationDef>

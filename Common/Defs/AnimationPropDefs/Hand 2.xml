@@ -6,10 +6,12 @@
         </PawnRenderNodeTagDef>
 
     <Rimworld_Animations.AnimationPropDef>
-		<defName>AnimationProp_HandSt2</defName>	
-		<animPropProperties>	
+		<defName>AnimationProp_HandSt2</defName>
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
             <debugLabel>AnimProp_HandSt2</debugLabel>		
 			<tagDef>RenderNodeTag_HandSt2</tagDef>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>
 			<parentTagDef>Body</parentTagDef>
 			<texPath>AnimationProps/Hand/Hand2</texPath>
 			<overlayLayer>Head</overlayLayer>

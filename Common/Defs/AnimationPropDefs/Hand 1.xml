@@ -7,9 +7,11 @@
 
     <Rimworld_Animations.AnimationPropDef>
 		<defName>AnimationProp_HandSt</defName>	
-		<animPropProperties>	
+			<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
             <debugLabel>AnimProp_HandSt</debugLabel>		
 			<tagDef>RenderNodeTag_HandSt</tagDef>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>
 			<parentTagDef>Body</parentTagDef>
 			<texPath>AnimationProps/Hand/Hand</texPath>
 			<overlayLayer>Head</overlayLayer>
