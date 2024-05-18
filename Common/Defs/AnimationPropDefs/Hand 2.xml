@@ -15,7 +15,8 @@
 			<overlayLayer>Head</overlayLayer>
 			<baseLayer>80</baseLayer>		
 			<colorType>Skin</colorType>
-			<useSkinShader>True</useSkinShader>	
+			<useSkinShader>True</useSkinShader>
+			<propOffsetDef>PropOffsetDef_HandSt2</propOffsetDef>
 		</animPropProperties>
 	</Rimworld_Animations.AnimationPropDef>
 
