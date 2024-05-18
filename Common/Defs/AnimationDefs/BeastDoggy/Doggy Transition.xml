@@ -63,7 +63,7 @@
           </keyframes>
         </value>
       </li>
-      <li>
+		<li MayRequire="shauaputa.rimnudeworldzoo">
         <key>AnimalPenis</key>
         <value>
           <workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
