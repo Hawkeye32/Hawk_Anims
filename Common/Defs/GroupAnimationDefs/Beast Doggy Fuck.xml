@@ -85,8 +85,8 @@
 									<li>Warg</li>
 									<li>Husky</li>
 									<li>LabradorRetriever</li>
-									<li>Ninetailfoxwt</li>
-									<li>Ninetailfox</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
 								</races>
 							</li>
 						</tests>
@@ -119,8 +119,8 @@
 									<li>Warg</li>
 									<li>Husky</li>
 									<li>LabradorRetriever</li>
-									<li>Ninetailfoxwt</li>
-									<li>Ninetailfox</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
 								</races>
 							</li>
 						</tests>
