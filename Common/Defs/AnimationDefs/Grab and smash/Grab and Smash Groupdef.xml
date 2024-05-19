@@ -17,7 +17,7 @@
 				</loopOptions>
 			</li>
 					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-						<loops>15</loops>
+						<loops>20</loops>
 						<loopOptions>
 							<li>
 								<probability>3</probability>
@@ -41,7 +41,7 @@
 				</loopOptions>
 			</li>
 					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-						<loops>10</loops>
+						<loops>15</loops>
 						<loopOptions>
 							<li>
 								<probability>1</probability>
@@ -68,14 +68,14 @@
 		
 		<contexts>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
-				<priority>1</priority>
+				<priority>2</priority>
 				<interactionDefs>
 					<li>Sex_Anal</li>
 					<li>Sex_Vaginal</li>
 				</interactionDefs>
 			</li>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
-				<priority>1</priority>
+				<priority>2</priority>
 				<actorShift>1</actorShift>
 				<interactionDefs>
 					<li>Sex_Reverse_Anal</li>

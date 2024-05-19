@@ -2,7 +2,7 @@
 <Defs>
   <AnimationDef>
     <defName>FacetoFaceInitTurn</defName>
-    <durationTicks>60</durationTicks>
+    <durationTicks>120</durationTicks>
     <animationParts>
       <li>
         <key>Root</key>
@@ -24,14 +24,14 @@
               <rotation>South</rotation>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
-              <tick>30</tick>
+              <tick>40</tick>
               <angle>0</angle>
               <visible>true</visible>
               <offset>(0, -0.1, -0.05676448)</offset>
               <rotation>South</rotation>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
-              <tick>40</tick>
+              <tick>60</tick>
               <angle>0</angle>
               <visible>true</visible>
               <offset>(0, -0.1, 0)</offset>
@@ -208,7 +208,7 @@
   </AnimationDef>
   <AnimationDef>
     <defName>FacetoFaceRecTurn</defName>
-    <durationTicks>60</durationTicks>
+    <durationTicks>120</durationTicks>
     <animationParts>
       <li>
         <key>Root</key>
@@ -230,7 +230,7 @@
               <rotation>South</rotation>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
-              <tick>30</tick>
+              <tick>40</tick>
               <angle>-15</angle>
               <visible>true</visible>
               <offset>(-0.08514664, 0, 0.2)</offset>
@@ -238,14 +238,21 @@
               <sound>Slimy</sound>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
-              <tick>40</tick>
+              <tick>60</tick>
               <angle>0</angle>
               <visible>true</visible>
               <offset>(0, 0, 0.2)</offset>
               <rotation>South</rotation>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
-              <tick>60</tick>
+              <tick>75</tick>
+              <angle>0</angle>
+              <visible>true</visible>
+              <offset>(0, 0, 0.15)</offset>
+              <rotation>South</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>75</tick>
               <angle>0</angle>
               <visible>true</visible>
               <offset>(0, 0, 0.15)</offset>
