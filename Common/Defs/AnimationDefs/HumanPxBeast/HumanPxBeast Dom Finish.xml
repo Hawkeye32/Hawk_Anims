@@ -302,6 +302,200 @@
           </keyframes>
         </value>
       </li>
+      <li>
+        <key>RenderNodeTag_XrayBk</key>
+        <value>
+          <workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+          <keyframes>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>0</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -1, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+            </li>
+          </keyframes>
+        </value>
+      </li>
+      <li>
+        <key>RenderNodeTag_XrayOy</key>
+        <value>
+          <workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+          <keyframes>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>0</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>10</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>20</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>30</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>40</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>50</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>60</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>70</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>80</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.5, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+          </keyframes>
+        </value>
+      </li>
+      <li>
+        <key>RenderNodeTag_XrayDk</key>
+        <value>
+          <workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+          <keyframes>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>0</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>10</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>20</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>30</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>40</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>50</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>60</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>2</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>70</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>80</tick>
+              <angle>-90</angle>
+              <visible>true</visible>
+              <offset>(0.3, -0.7, 1)</offset>
+              <scale>(0.5, 1, 0.5)</scale>
+              <rotation>North</rotation>
+              <variant>3</variant>
+            </li>
+          </keyframes>
+        </value>
+      </li>
     </animationParts>
   </AnimationDef>
   <AnimationDef>

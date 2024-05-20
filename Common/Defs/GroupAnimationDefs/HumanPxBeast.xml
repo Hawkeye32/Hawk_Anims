@@ -92,7 +92,7 @@
 						<li Class="Rimworld_Animations.PawnTest_Multi">
 							<!-- Dog -->
 							<tests>
-								<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+								<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 								<li Class="Rimworld_Animations.PawnTest_Race">
 									<races>
 										<li>Wolf_Timber</li>
@@ -108,7 +108,7 @@
 						</li>
 						<li Class="Rimworld_Animations.PawnTest_Multi">
 							<tests>
-								<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+								<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
 								<!-- Human -->
 								<li Class="Rimworld_Animations.PawnTest_Humanlike" />
 							</tests>
