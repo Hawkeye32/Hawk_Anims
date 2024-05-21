@@ -56,6 +56,12 @@
 		
 		<contexts>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+					<!-- Human -->
+					<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+					<!-- Human -->
+				</whitelist>
 				<priority>1</priority>
 				<interactionDefs>
 					<li>Sex_Anal</li>
@@ -63,6 +69,13 @@
 				</interactionDefs>
 			</li>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+					<!-- Human -->
+					<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+					<!-- Human -->
+				</whitelist>
+				
 				<priority>1</priority>
 				<actorShift>1</actorShift>
 				<interactionDefs>

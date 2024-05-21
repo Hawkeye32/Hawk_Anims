@@ -71,23 +71,8 @@
 			</li>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
 				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" /> <!-- Human -->
 					<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" /> <!-- Human -->
-					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Dog -->
-						<tests>
-							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-							<li Class="Rimworld_Animations.PawnTest_Race">
-								<races>
-									<li>Wolf_Timber</li>
-									<li>Wolf_Arctic</li>
-									<li>Warg</li>
-									<li>Husky</li>
-									<li>LabradorRetriever</li>
-									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
-									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
-								</races>
-							</li>
-						</tests>
-					</li>
 				</whitelist>
 				<priority>1</priority>
 				<actorShift>1</actorShift>

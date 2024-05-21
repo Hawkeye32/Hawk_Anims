@@ -17,10 +17,10 @@
 				</loopOptions>
 			</li>
 					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-						<loops>20</loops>
+						<loops>25</loops>
 						<loopOptions>
 							<li>
-								<probability>3</probability>
+								<probability>1</probability>
 								<animationDefs>
 									<li>FacetoFaceInitFast</li>
 									<li>FacetoFaceRecFast</li>
@@ -32,7 +32,7 @@
 				<loops>1</loops>
 				<loopOptions>
 					<li>
-						<probability>3</probability>
+						<probability>1</probability>
 						<animationDefs>
 							<li>FacetoFaceInitTurn</li>
 							<li>FacetoFaceRecTurn</li>
@@ -41,7 +41,7 @@
 				</loopOptions>
 			</li>
 					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-						<loops>15</loops>
+						<loops>20</loops>
 						<loopOptions>
 							<li>
 								<probability>1</probability>

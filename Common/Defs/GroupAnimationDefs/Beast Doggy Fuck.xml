@@ -69,15 +69,9 @@
 		<contexts>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
 			<whitelist>
-					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Human -->
-						<tests>
-							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
-							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-						</tests>
-					</li>
 					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Dog -->
 						<tests>
-							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
 							<li Class="Rimworld_Animations.PawnTest_Race">
 								<races>
 									<li>Wolf_Timber</li>
@@ -91,6 +85,13 @@
 							</li>
 						</tests>
 					</li>
+				<li Class="Rimworld_Animations.PawnTest_Multi">
+					<!-- Human -->
+					<tests>
+						<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+					</tests>
+				</li>
 				</whitelist>
 				<priority>1</priority>
 				
