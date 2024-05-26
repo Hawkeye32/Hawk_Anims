@@ -2,6 +2,6 @@
 <loadFolders>
     <v1.5>
 		<li>Common</li>
-		<li IfModActive="dianawinters.Orassans">Race Patches/Orassan/Patches</li>
+		<li IfModActive="dianawinters.Orassans">Race_Patches/Orassan/Patches</li>
 	</v1.5>
 </loadFolders>

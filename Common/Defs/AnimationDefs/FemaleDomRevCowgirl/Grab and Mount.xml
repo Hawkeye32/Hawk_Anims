@@ -33,13 +33,6 @@
           </keyframes>
         </value>
       </li>
-      <li>
-        <key>NewAnimationPart</key>
-        <value>
-          <workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
-          <keyframes />
-        </value>
-      </li>
     </animationParts>
   </AnimationDef>
   <AnimationDef>
