@@ -11,6 +11,14 @@
 				<offsets>
 				</offsets>
 			</li>
+
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="miho.fortifiedoutremer">
+				<races>
+					<li>Yuran_Race</li>
+					<li>Yuran_Race_Miko</li>
+				</races>
+				<offset>(0, 0.105, 0)</offset>
+			</li>
 			
 			<li Class="Rimworld_Animations.AnimationOffset_Single">
 				<races>
