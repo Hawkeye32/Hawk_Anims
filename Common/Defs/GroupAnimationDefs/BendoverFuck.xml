@@ -70,9 +70,9 @@
 			</li>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
 				<whitelist>
-					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-					<!-- Human -->
 					<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+					<!-- Human -->
+					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
 					<!-- Human -->
 				</whitelist>
 				
