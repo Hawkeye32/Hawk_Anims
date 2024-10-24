@@ -49,13 +49,6 @@
 					<li>Sex_Scissoring</li>
 				</interactionDefs>
 			</li>
-			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
-				<priority>1</priority>
-				<actorShift>1</actorShift>
-				<interactionDefs>
-					<li>Sex_Reverse_Scissoring</li>
-			    </interactionDefs>
-			</li>
 		</contexts>
 
 		<offsetDefs>
