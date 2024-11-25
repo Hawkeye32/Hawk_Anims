@@ -138,6 +138,36 @@
               <visible>true</visible>
               <rotation>East</rotation>
             </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>120</tick>
+              <angle>15</angle>
+              <visible>true</visible>
+              <rotation>East</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>130</tick>
+              <angle>10</angle>
+              <visible>true</visible>
+              <rotation>East</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>145</tick>
+              <angle>5</angle>
+              <visible>true</visible>
+              <rotation>East</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>190</tick>
+              <angle>-5</angle>
+              <visible>true</visible>
+              <rotation>East</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>210</tick>
+              <angle>-15</angle>
+              <visible>true</visible>
+              <rotation>East</rotation>
+            </li>
           </keyframes>
         </value>
       </li>
