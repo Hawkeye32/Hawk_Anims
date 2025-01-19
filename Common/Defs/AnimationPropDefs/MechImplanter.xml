@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <PawnRenderNodeTagDef>
+        <defName>RenderNodeTag_MechUpper</defName>
+    </PawnRenderNodeTagDef>
+
+    <Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_MechUpper</defName>	
+			<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+            <debugLabel>AnimProp_MechUpper</debugLabel>		
+			<tagDef>RenderNodeTag_MechUpper</tagDef>
+			<parentTagDef>Body</parentTagDef>
+			<texPath>AnimationProps/MechImplanter/MechUpper</texPath>
+			<overlayLayer>Body</overlayLayer>
+			<baseLayer>80</baseLayer>
+			<absoluteTransform>True</absoluteTransform>	
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+	 <PawnRenderNodeTagDef>
+       <defName>RenderNodeTag_MechLower</defName>
+    </PawnRenderNodeTagDef>
+
+    <Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_MechLower</defName>	
+			<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+            <debugLabel>AnimProp_MechLower</debugLabel>		
+			<tagDef>RenderNodeTag_MechLower</tagDef>
+			<parentTagDef>Body</parentTagDef>
+			<texPath>AnimationProps/MechImplanter/MechLower</texPath>
+			<overlayLayer>Body</overlayLayer>
+			<baseLayer>80</baseLayer>
+			<absoluteTransform>True</absoluteTransform>	
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+	 <PawnRenderNodeTagDef>
+        <defName>RenderNodeTag_MechInsert</defName>
+    </PawnRenderNodeTagDef>
+
+    <Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_MechInsert</defName>	
+			<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+            <debugLabel>AnimProp_MechInsert</debugLabel>		
+			<tagDef>RenderNodeTag_MechInsert</tagDef>
+			<parentTagDef>Body</parentTagDef>
+			<texPath>AnimationProps/MechImplanter/MechInsert</texPath>
+			<overlayLayer>Body</overlayLayer>
+			<baseLayer>80</baseLayer>
+			<absoluteTransform>True</absoluteTransform>	
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+
+</Defs>

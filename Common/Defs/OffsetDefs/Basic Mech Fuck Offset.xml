@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.AnimationOffsetDef>
+		<defName>BasicMechFuckOffsetRec</defName>
+		<offsets>
+
+			<li Class="Rimworld_Animations.AnimationOffset_BodyType">
+				<races>
+					<li>Human</li>
+				</races>
+				<offsets>
+					<li><bodyType>Hulk</bodyType><offset>(0.1, 0, 0)</offset></li>
+					<li><bodyType>Thin</bodyType><offset>(0, 0, -0.05)</offset></li>
+				</offsets>
+			</li>
+			
+			<li Class="Rimworld_Animations.AnimationOffset_Single">
+				<races>
+					<li>Mech_CentipedeGunner</li>
+                   	<li>Mech_CentipedeBurner</li>
+					<li>Mech_Lancer</li>
+    				<li>Mech_Scyther</li>
+					<li>Mech_Pikeman</li>
+                    <li>Mech_Termite</li>
+				</races>
+				<offset>(0.2, 0, -0.4)</offset>
+				<rotation>0</rotation>
+			</li>
+			
+		</offsets>
+	</Rimworld_Animations.AnimationOffsetDef>
+</Defs>
+	

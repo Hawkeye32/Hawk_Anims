@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>MechFuck</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Female_Mech_Recieving</li>
+							<li>Mechanoid_Penetrating</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+			</li>
+            <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Female_Mech_Recieving2</li>
+							<li>Mechanoid_Penetrating2</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+			</li>
+            <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>15</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Female_Mech_Recieving3</li>
+							<li>Mechanoid_Penetrating3</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+			</li>
+			 <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Female_Mech_Recieving4</li>
+							<li>Mechanoid_Penetrating4</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+			</li>
+		</animationStages>
+		
+		<contexts>
+			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
+			<actorShift>1</actorShift>
+			<whitelist>
+			</whitelist>
+				<priority>1</priority>
+				<interactionDefs>
+					<li>Rape_MechImplant</li>
+				</interactionDefs>
+			</li>
+		</contexts>
+        
+		<offsetDefs>
+			<li>BasicMechFuckOffsetInit</li>
+			<li>BasicMechFuckOffsetRec</li>
+		</offsetDefs>
+		
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>

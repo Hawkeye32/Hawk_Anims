@@ -55,11 +55,16 @@
 										<li>Human</li>
 									</races>
 								</li>
+								<li Class="Rimworld_Animations.PawnTest_BodyType">
+								<bodyType>
+									<li>Hulk</li>
+								</bodyType>
+							</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 						</tests>
 					</li>
 				</whitelist>
-				<priority>1</priority>
+				<priority>5</priority>
 				<interactionDefs>
 					<li>Sex_Anal</li>
 					<li>Sex_Vaginal</li>
@@ -75,13 +80,18 @@
 										<li>Human</li>
 									</races>
 								</li>
+							<li Class="Rimworld_Animations.PawnTest_BodyType">
+								<bodyType>
+									<li>Hulk</li>
+								</bodyType>
+							</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 						</tests>
 					</li>
 					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
 					<!-- Human -->
 				</whitelist>
-				<priority>1</priority>
+				<priority>5</priority>
 				<actorShift>1</actorShift>
 				<interactionDefs>
 					<li>Sex_Reverse_Anal</li>
