@@ -30,6 +30,15 @@
 				<rotation>0</rotation>
 			</li>
 
+			<li Class="Rimworld_Animations.AnimationOffset_Single">
+				<races>
+					<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
+					<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
+				</races>
+				<rotation>0</rotation>
+				<offset>(0,0.015,0)</offset>
+			</li>
+
 		</offsets>
 	</Rimworld_Animations.AnimationOffsetDef>
 </Defs>

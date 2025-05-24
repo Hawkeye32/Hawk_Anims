@@ -83,6 +83,12 @@
 					<interactionDefs>
 						<li>Bestiality_Anal</li>
 						<li>Bestiality_Vaginal</li>
+						<li>InterspiciesHumanMatingMale</li>
+						<li>NuzzleSex</li>
+						<li>BreedingWorkInviteMale</li>
+						<li>BreedingWorkInviteMaleForced</li>
+						<li>BreedingWorkAnimalResponseMale</li>
+						<li>BreedingWorkAnimalResponseMaleForced</li>
 					</interactionDefs>
 				</li>
 				<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
@@ -117,6 +123,12 @@
 					<interactionDefs>
 						<li>Bestiality_Reverse_Anal</li>
 						<li>Bestiality_Reverse_Vaginal</li>
+						<li>InterspiciesHumanMatingMale</li>
+						<li>NuzzleSex</li>
+						<li>BreedingWorkInviteMale</li>
+						<li>BreedingWorkInviteMaleForced</li>
+						<li>BreedingWorkAnimalResponseMale</li>
+						<li>BreedingWorkAnimalResponseMaleForced</li>
 					</interactionDefs>
 				</li>
 			</contexts>
@@ -199,7 +211,7 @@
 						</loopOptions>
 					</li>
 					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-						<loops>15</loops>
+						<loops>25</loops>
 						<loopOptions>
 							<li>
 								<probability>1</probability>

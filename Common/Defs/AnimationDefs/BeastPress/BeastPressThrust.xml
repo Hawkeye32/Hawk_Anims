@@ -29,6 +29,7 @@
               <visible>true</visible>
               <offset>(-0.05676454, 0, 0.2043521)</offset>
               <rotation>East</rotation>
+              <sound>Slimy</sound>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
               <tick>30</tick>

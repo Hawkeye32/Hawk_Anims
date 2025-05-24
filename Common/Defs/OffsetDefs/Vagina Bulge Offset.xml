@@ -35,6 +35,13 @@
 				<offset>(0, 0.105, 0)</offset>
 			</li>
 
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="VAMV.MaruRaceMod">
+				<races>
+					<li>Maru</li>
+				</races>
+				<offset>(0, 0.185, 0.158)</offset>
+			</li>
+
 			<li Class="Rimworld_Animations.AnimationOffset_Single">
 				<races>
 					<li>Warg</li>
