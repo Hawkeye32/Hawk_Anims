@@ -100,11 +100,11 @@
 				<interactionDefs>
 					<li>Bestiality_Anal</li>
 					<li>Bestiality_Vaginal</li>
-					<li>InterspiciesHumanMatingMale</li>
-						<li>NuzzleSex</li>
-						<li>BreedingWorkInviteMale</li>
-						<li>BreedingWorkAnimalResponseMale</li>
-						<li>BreedingWorkAnimalResponseMaleForced</li>
+					<li MayRequire="ElToro.BAddon">InterspiciesHumanMatingMale</li>
+						<li MayRequire="ElToro.BAddon">NuzzleSex</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkInviteMale</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseMale</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseMaleForced</li>
 				</interactionDefs>
 			</li>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
@@ -139,12 +139,12 @@
 				<interactionDefs>
 					<li>Bestiality_Reverse_Anal</li>
 					<li>Bestiality_Reverse_Vaginal</li>
-					<li>InterspiciesHumanMatingFemale</li>
-						<li>NuzzleSex</li>
-						<li>BreedingWorkInviteFemale</li>
-						<li>BreedingWorkInviteForcedFemale</li>
-						<li>BreedingWorkAnimalResponseFemale</li>
-						<li>BreedingWorkAnimalResponseFemaleForced</li>
+					<li MayRequire="ElToro.BAddon">InterspiciesHumanMatingFemale</li>
+						<li MayRequire="ElToro.BAddon">NuzzleSex</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkInviteFemale</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkInviteForcedFemale</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseFemale</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseFemaleForced</li>
 				</interactionDefs>
 			</li>
 		</contexts>
