@@ -86,7 +86,7 @@
 						<li MayRequire="ElToro.BAddon">InterspiciesHumanMatingMale</li>
 						<li MayRequire="ElToro.BAddon">NuzzleSex</li>
 						<li MayRequire="ElToro.BAddon">BreedingWorkInviteMale</li>
-						<li MayRequire="ElToro.BAddon">BreedingWorkInviteMaleForced</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkInviteForcedMale</li>
 						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseMale</li>
 						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseMaleForced</li>
 					</interactionDefs>
@@ -126,7 +126,7 @@
 						<li MayRequire="ElToro.BAddon">InterspiciesHumanMatingMale</li>
 						<li MayRequire="ElToro.BAddon">NuzzleSex</li>
 						<li MayRequire="ElToro.BAddon">BreedingWorkInviteMale</li>
-						<li MayRequire="ElToro.BAddon">BreedingWorkInviteMaleForced</li>
+						<li MayRequire="ElToro.BAddon">BreedingWorkInviteForcedMale</li>
 						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseMale</li>
 						<li MayRequire="ElToro.BAddon">BreedingWorkAnimalResponseMaleForced</li>
 					</interactionDefs>
