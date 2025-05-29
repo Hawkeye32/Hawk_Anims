@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnRenderNodeTagDef>
+		<defName>RenderNodeTag_Yuran_Vagina</defName>
+	</PawnRenderNodeTagDef>
+
+	<Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_Yuran_Vagina</defName>		
+		<!-- Note: props always return graphic_multi; set cardinal textures to blank and only north in anim if only one tex-->
+		<!-- or draw east, south, and west directions, use them in animations? -->
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<debugLabel>AnimProp_Yuran_Vagina</debugLabel>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>			
+			<tagDef>RenderNodeTag_Yuran_Vagina</tagDef>
+			<parentTagDef></parentTagDef>
+			<texPath>AnimationProps/Vagina/Yuran_Vagina_south</texPath>
+			<!-- for height -->
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>80</baseLayer>
+            <texPathVariantsDef>TexPathVariants_Yuran_Vagina</texPathVariantsDef>
+			<colorType>Skin</colorType>
+			<useSkinShader>False</useSkinShader>
+			<propOffsetDef>PropOffsetDef_Yuran_Vagina</propOffsetDef>				
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+</Defs>

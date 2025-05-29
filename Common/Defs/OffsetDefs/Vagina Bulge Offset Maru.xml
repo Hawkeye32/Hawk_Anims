@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.AnimationOffsetDef>
+		<defName>PropOffsetDef_Maru_Vagina</defName>
+		<offsets>
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="VAMV.MaruRaceMod">
+				<races>
+					<li>Maru</li>
+				</races>
+				<offset>(0, -0.01, 0.505)</offset>
+			</li>
+		</offsets>
+	</Rimworld_Animations.AnimationOffsetDef>
+</Defs>
+	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<Rimworld_Animations.GroupAnimationDef>
-		<defName>HawkMissionary</defName>
+		<defName>HawkMissionaryMaru</defName>
 		<numActors>2</numActors>
 		<animationStages>
 			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
@@ -10,8 +10,8 @@
 					<li>
 						<probability>3</probability>
 						<animationDefs>
-							<li>HawkMissionarykM1v1</li>
-							<li>HawkMissionarykF1v1</li>
+							<li>HawkMissionarykM1v1Maru</li>
+							<li>HawkMissionarykF1v1Maru</li>
 						</animationDefs>						
 					</li>
 				</loopOptions>
@@ -22,8 +22,8 @@
 							<li>
 								<probability>3</probability>
 								<animationDefs>
-									<li>2HawkMissionarykM1v1</li>
-									<li>2HawkMissionarykF1v1</li>
+									<li>2HawkMissionarykM1v1Maru</li>
+									<li>2HawkMissionarykF1v1Maru</li>
 								</animationDefs>
 							</li>
 						</loopOptions>						
@@ -34,8 +34,8 @@
                             <li>
                                 <probability>3</probability>
                                 <animationDefs>
-                                    <li>3HawkMissionarykM1v1</li>
-                                    <li>3HawkMissionarykF1v1</li>
+                                    <li>3HawkMissionarykM1v1Maru</li>
+                                    <li>3HawkMissionarykF1v1Maru</li>
                                 </animationDefs>						
                             </li>
                         </loopOptions>
@@ -45,14 +45,13 @@
 		<contexts>
 			<li Class="Rimworld_Animations.GroupAnimationContext_RJWSex">
 				<whitelist>
+						
 					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-					<!-- Human -->
 					<li Class="Rimworld_Animations.PawnTest_Multi">
-					<!-- Human -->
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_Race">
 									<races>
-										<li>Human</li>
+										<li>Maru</li>
 									</races>
 								</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
@@ -60,7 +59,7 @@
 					</li>
 					<!-- Human -->
 				</whitelist>
-				<priority>1</priority>
+				<priority>2</priority>
 				<interactionDefs>
 					<li>Sex_Anal</li>
 					<li>Sex_Vaginal</li>
@@ -73,17 +72,16 @@
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_Race">
 									<races>
-										<li>Human</li>
+										<li>Maru</li>
 									</races>
 								</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 						</tests>
 					</li>
-					<!-- Human -->
 					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
 					<!-- Human -->
 				</whitelist>
-				<priority>1</priority>
+				<priority>2</priority>
 				<actorShift>1</actorShift>
 				<interactionDefs>
 					<li>Sex_Reverse_Anal</li>

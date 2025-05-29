@@ -30,6 +30,22 @@
 				<rotation>0</rotation>
 			</li>
 
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="VAMV.MaruRaceMod">
+				<races>
+					<li>Maru</li>
+				</races>
+				<offset>(0, -1.2, -0.255)</offset>
+			</li>
+
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="RooAndGloomy.YuranRaceMod">
+				<races>
+					<li>Yuran_Race</li>
+					<li>Yuran_Race_Miko</li>
+					<li>Yuran_Race_Miko_BlackSnake</li>
+				</races>
+				<offset>(0, -1.2, -0.2)</offset>
+			</li>
+
 		</offsets>
 	</Rimworld_Animations.AnimationOffsetDef>
 </Defs>
