@@ -55,7 +55,7 @@
 						</tests>
 					</li>
 				</whitelist>
-				<priority>2</priority>
+				<priority>1</priority>
 				<interactionDefs>
 					<li>Sex_Anal</li>
 					<li>Sex_Vaginal</li>
@@ -85,7 +85,7 @@
 					<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
 					<!-- Human -->
 				</whitelist>
-				<priority>2</priority>
+				<priority>1</priority>
 				<actorShift>1</actorShift>
 				<interactionDefs>
 					<li>Sex_Reverse_Anal</li>
