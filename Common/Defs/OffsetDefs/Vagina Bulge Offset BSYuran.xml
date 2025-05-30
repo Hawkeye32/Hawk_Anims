@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<Rimworld_Animations.AnimationOffsetDef>
-		<defName>PropOffsetDef_Yuran_Vagina</defName>
+		<defName>PropOffsetDef_BSYuran_Vagina</defName>
 		<offsets>
 			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="RooAndGloomy.YuranRaceMod">
 				<races>
-					<li>Yuran_Race</li>
-					<li>Yuran_Race_Miko</li>
+					<li>Yuran_Race_Miko_BlackSnake</li>
 				</races>
-				<offset>(0, -0.01, 0.505)</offset>
+				<offset>(0.10, -0.01, 0.505)</offset>
 			</li>
 		</offsets>
 	</Rimworld_Animations.AnimationOffsetDef>

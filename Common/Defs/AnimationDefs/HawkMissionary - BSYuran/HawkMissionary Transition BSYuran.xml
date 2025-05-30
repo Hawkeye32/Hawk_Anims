@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AnimationDef>
+		<defName>T1HawkMissionarykM1v1BSYuran</defName>
+		<durationTicks>120</durationTicks>
+        <startOnRandomTick>False</startOnRandomTick>
+		<playWhenDowned>True</playWhenDowned>
+	
+		<animationParts>
+			<!--Note: Rotate animal body by setting body rotation, not head rotation; different for animals-->
+			<li>
+				<key>Root</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, -.65)</offset>
+							<tick>0</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, -.55)</offset>
+							<tick>10</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, -.45)</offset>
+							<tick>35</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, -1, -.55)</offset>
+                            <tick>75</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, -1, -.65)</offset>
+							<tick>80</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+                        <li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, -1, -.55)</offset>
+							<tick>120</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			<li>
+				<key>Body</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<tick>0</tick>
+							<angle>0</angle>
+							<rotation>South</rotation>
+							<visible>true</visible>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			<li>
+				<key>Head</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, -.2)</offset>
+                            <tick>2</tick>
+							<angle>180</angle>
+							<rotation>North</rotation>
+							<visible>true</visible>
+						</li>
+                        <li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, -.25)</offset>
+                            <tick>25</tick>
+							<angle>180</angle>
+							<rotation>North</rotation>
+							<visible>true</visible>
+						</li>
+                        <li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, -.2)</offset>
+                            <tick>80</tick>
+							<angle>180</angle>
+							<rotation>North</rotation>
+							<visible>true</visible>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			 <li>
+				<key>RenderNodeTag_XrayVertB</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(.75, 1, .5)</offset>
+                            <tick>0</tick>
+							<angle>0</angle>
+							<visible>true</visible>
+                            <scale>(.5, 1, .5)</scale>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			<li>
+				<key>RenderNodeTag_XrayVertO</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(.75, 1, .5)</offset>
+                            <tick>0</tick>
+							<angle>0</angle>
+							<visible>true</visible>
+                            <scale>(.5, 1, .5)</scale>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			 <li>
+				<key>RenderNodeTag_XrayVertD</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(.75, 1, .5)</offset>
+                            <tick>0</tick>
+							<angle>0</angle>
+							<visible>false</visible>
+                            <scale>(.5, 1, .5)</scale>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			 <li>
+				<key>RenderNodeTag_Penis</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 2, -.45)</offset>
+                            <tick>0</tick>
+							<angle>180</angle>
+							<visible>true</visible>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+		</animationParts>
+	</AnimationDef>
+	<AnimationDef>
+		<defName>T1HawkMissionarykF1v1BSYuran</defName>
+		<durationTicks>120</durationTicks>
+		<startOnRandomTick>False</startOnRandomTick>
+		<playWhenDowned>True</playWhenDowned>
+	
+
+		<animationParts>
+			<li>
+				<key>Root</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+                        <li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, -.5, .5)</offset>
+							<tick>3</tick>
+							<angle>0</angle>
+							<rotation>South</rotation>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+						  <offset>(0, -.5, .5)</offset>
+						  <tick>50</tick>
+						  <angle>2</angle>
+						  <rotation>South</rotation>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+						  <offset>(0, -.5, 0.5)</offset>
+						  <tick>120</tick>
+						  <angle>-2</angle>
+						  <rotation>South</rotation>
+						</li>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+						  <offset>(0, -.5, 0.5)</offset>
+						  <tick>120</tick>
+						  <angle>0</angle>
+						  <rotation>South</rotation>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+            <li>
+				<key>Body</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<tick>0</tick>
+							<angle>0</angle>
+							<rotation>South</rotation>
+							<visible>true</visible>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			<li>
+				<key>Head</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<tick>5</tick>
+							<angle>0</angle>
+							<rotation>South</rotation>
+						</li>
+                        <li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 0, .05)</offset>
+                            <tick>50</tick>
+							<angle>-20</angle>
+							<rotation>South</rotation>
+						</li>
+                        <li Class="Rimworld_Animations.ExtendedKeyframe">
+							<tick>120</tick>
+							<angle>0</angle>
+							<rotation>South</rotation>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+			 <li>
+				<key>RenderNodeTag_BSYuran_Vagina</key>
+				<value>
+					<workerClass>Rimworld_Animations.AnimationWorker_KeyframesExtended</workerClass>
+					<keyframes>
+						<li Class="Rimworld_Animations.ExtendedKeyframe">
+							<offset>(0, 1.5 , -.4)</offset>
+                            <tick>0</tick>
+							<angle>0</angle>
+							<visible>true</visible>
+						</li>
+					</keyframes>
+				</value>
+			</li>
+		
+		</animationParts>
+	</AnimationDef>
+</Defs>
