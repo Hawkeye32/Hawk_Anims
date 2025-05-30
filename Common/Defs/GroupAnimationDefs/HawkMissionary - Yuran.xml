@@ -54,7 +54,6 @@
 									<races>
 										<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race</li>
 										<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko</li>
-										<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko_BlackSnake</li>
 									</races>
 								</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
@@ -77,7 +76,6 @@
 									<races>
 										<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race</li>
 										<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko</li>
-										<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko_BlackSnake</li>
 									</races>
 								</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
