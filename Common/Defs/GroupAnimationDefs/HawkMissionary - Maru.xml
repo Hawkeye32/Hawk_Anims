@@ -51,7 +51,7 @@
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_Race">
 									<races>
-										<li>Maru</li>
+										<li MayRequire="VAMV.MaruRaceMod">Maru</li>
 									</races>
 								</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
@@ -72,7 +72,7 @@
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_Race">
 									<races>
-										<li>Maru</li>
+										<li MayRequire="VAMV.MaruRaceMod">Maru</li>
 									</races>
 								</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
