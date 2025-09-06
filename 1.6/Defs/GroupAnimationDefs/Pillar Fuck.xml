@@ -84,6 +84,12 @@
 				<whitelist>
 					<li Class="Rimworld_Animations.PawnTest_Multi">
 						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<!-- Human -->
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
 								<interactionDefs>
@@ -91,12 +97,6 @@
 									<li>Rape_Reverse_Anal</li>
 								</interactionDefs>
 							</li>
-						</tests>
-					</li>
-					<li Class="Rimworld_Animations.PawnTest_Multi">
-						<tests>
-						<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-						<!-- Human -->
 						</tests>
 					</li>
 				</whitelist>

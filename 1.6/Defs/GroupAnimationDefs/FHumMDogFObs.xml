@@ -59,14 +59,10 @@
 			<li Class="Rimworld_Animations.GroupAnimationContext">
 			<priority>1</priority>
 			<whitelist>
-					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Dog -->
+					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Human -->
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
-							<li Class="Rimworld_Animations.PawnTest_Race">
-								<races>
-									<li>Human</li>
-								</races>
-							</li>
+							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
 							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
 								<interactionDefs>
 									<li>Bestiality_Anal</li>
@@ -91,7 +87,13 @@
 							</li>
 						</tests>
 					</li>
-                    <li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" /> <!-- Human -->
+				<li Class="Rimworld_Animations.PawnTest_Multi">
+					<!-- Human -->
+					<tests>
+						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+					</tests>
+				</li>
 				</whitelist>
 			</li>
 		</contexts>

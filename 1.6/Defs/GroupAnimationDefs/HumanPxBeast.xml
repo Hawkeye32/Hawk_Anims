@@ -91,6 +91,13 @@
 					<priority>1</priority>
 					<whitelist>
 						<li Class="Rimworld_Animations.PawnTest_Multi">
+							<tests>
+								<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+								<!-- Human -->
+								<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+							</tests>
+						</li>
+						<li Class="Rimworld_Animations.PawnTest_Multi">
 							<!-- Dog -->
 							<tests>
 								<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
@@ -111,13 +118,6 @@
 										<li>Bestiality_Reverse_Vaginal</li>
 									</interactionDefs>
 								</li>
-							</tests>
-						</li>
-						<li Class="Rimworld_Animations.PawnTest_Multi">
-							<tests>
-								<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-								<!-- Human -->
-								<li Class="Rimworld_Animations.PawnTest_Humanlike" />
 							</tests>
 						</li>
 					</whitelist>

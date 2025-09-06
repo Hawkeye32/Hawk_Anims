@@ -78,18 +78,18 @@
 					<li Class="Rimworld_Animations.PawnTest_Multi">
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<!-- Human -->
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
 								<interactionDefs>
 									<li>Sex_Reverse_Fisting</li>
 									<li>Sex_Reverse_Fingering</li>
 								</interactionDefs>
 							</li>
-						</tests>
-					</li>
-					<li Class="Rimworld_Animations.PawnTest_Multi">
-						<tests>
-						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
-						<!-- Human -->
 						</tests>
 					</li>
 				</whitelist>
