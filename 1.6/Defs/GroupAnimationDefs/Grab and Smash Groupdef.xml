@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>HawkGrabandSmash</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>FacetoFaceInit</li>
+							<li>FacetoFaceRec</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+			</li>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>25</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>FacetoFaceInitFast</li>
+									<li>FacetoFaceRecFast</li>
+								</animationDefs>
+							</li>
+						</loopOptions>
+					</li>
+			<li Class="Rimworld_Animations.AnimationStage_Branch">
+				<loops>1</loops>
+				<paths>
+					<li>GrabandSmash_Branch1</li>
+				</paths>
+			</li>
+			
+		
+		</animationStages>
+		
+		<contexts>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+						<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+						<!-- Human -->
+						<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+							<interactionDefs>
+								<li>Sex_Anal</li>
+								<li>Sex_Vaginal</li>
+								<li>Bestiality_Anal</li>
+								<li>Bestiality_Vaginal</li>
+							</interactionDefs>
+						</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+					<!-- Human -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_Race">
+									<races>
+										<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
+										<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
+									</races>
+							</li>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						</tests>
+					</li>
+				</whitelist>
+				
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Sex_Reverse_Anal</li>
+									<li>Sex_Reverse_Vaginal</li>
+									<li>Bestiality_Reverse_Anal</li>
+									<li>Bestiality_Reverse_Vaginal</li>
+								</interactionDefs>
+							</li>
+							<li Class="Rimworld_Animations.PawnTest_Race">
+									<races>
+										<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
+										<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
+									</races>
+								</li>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+						<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+						<!-- Human -->
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+		</contexts>
+
+		<offsetDefs>
+			<li>GrabandSmashOffsetInit</li>
+			<li>GrabandSmashOffsetRec</li>
+		</offsetDefs>
+
+	</Rimworld_Animations.GroupAnimationDef>
+
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>GrabandSmash_Branch1</defName>
+		<numActors>2</numActors>
+		<animationStages>
+	
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>FacetoFaceInitTurn</li>
+							<li>FacetoFaceRecTurn</li>
+						</animationDefs>
+					</li>
+				</loopOptions>
+			</li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>20</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>FacetoFaceInitBehind</li>
+							<li>FacetoFaceRecBehind</li>
+						</animationDefs>
+					</li>
+				</loopOptions>
+			</li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>FacetoFaceInitFinish</li>
+							<li>FacetoFaceRecFinish</li>
+						</animationDefs>
+					</li>
+				</loopOptions>
+			</li>
+		</animationStages>
+
+			<offsetDefs>
+				<li>GrabandSmashBehindOffsetInit</li>
+				<li>GrabandSmashBehindOffsetRec</li>
+			</offsetDefs>
+
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>

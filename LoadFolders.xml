@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
     <v1.5>
+		<li>1.5</li>
 		<li>Common</li>
-		<li IfModActive="dianawinters.Orassans">Race_Patches/Orassan/Patches</li>
 	</v1.5>
+	<v1.6>
+		<li>1.6</li>
+		<li>Common</li>
+	</v1.6>
 </loadFolders>

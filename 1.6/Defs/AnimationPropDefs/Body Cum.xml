@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+        <PawnRenderNodeTagDef>
+            <defName>RenderNodeTag_BodyCum</defName>
+        </PawnRenderNodeTagDef>
+
+    <Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_BodyCum</defName>		
+		<animPropProperties>	
+            <debugLabel>AnimProp_BodyCum</debugLabel>		
+			<tagDef>RenderNodeTag_BodyCum</tagDef>
+			<parentTagDef>Body</parentTagDef>
+			<texPath>AnimationProps/Xray/Cum/BodyCum</texPath>
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>80</baseLayer>		
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+</Defs>

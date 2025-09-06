@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Orassans</li>
+        </mods>
+		<!-- Please use this a template for making other patches for other races -->
+        <match Class="PatchOPerationSequence">
+        <operations>
+         <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "BasicFuckOffsetRec"]/offsets</xpath>
+            		<value>
+               			<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(-0.1, 0, -0.2)</offset><rotation>20</rotation></li>
+							</offsetsFemale>
+						</li>
+            		</value>
+        </li>
+   
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "HawkBeastDoggyOffset"]/offsets</xpath>
+            		<value>
+            		</value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "BendoverFuckOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(-0.15, 0, 0.15)</offset>
+									<rotation>-25</rotation>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "HawkButterflyOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(-0.15, 0, -0.05)</offset>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "HawkMissionaryOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(0, 0, -0.25)</offset>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "PillarSpankOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(-0.1, 0, 0)</offset>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "PillarFuckOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(-0.175, 0, -0.1)</offset>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "ThroatFuckOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(-0.15, 0, 0.01)</offset>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "PropOffsetDef_VaginaR"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(0, 0, 0.148)</offset></li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+		 <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "PropOffsetDef_Vagina"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(0, 0, 0.148)</offset></li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+ 		 <li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "Offset_Missionary_Receiver"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+								<li>
+									<bodyType>Female</bodyType>
+									<offset>(-0.15, 0, 0.1)</offset>
+									<rotation>-10</rotation>
+								</li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+		<li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "Offset_Cowgirl_Top"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(0, 0, -0.1)</offset></li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+		<li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "Offset_Cunnilingus_Receiver"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(-0.371, 0, 0.15)</offset></li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+		<li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "Offset_Blowjob_Receiver"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(-0.2, 0, 0.05)</offset></li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+		<li Class="PatchOperationAdd">
+    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "GrabandSmashOffsetRec"]/offsets</xpath>
+            		<value>
+					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
+							<races>
+							<li>Alien_Orassan</li>
+							</races>
+							<offsetsMale>
+							</offsetsMale>
+							<offsetsFemale>
+							<li><bodyType>Female</bodyType><offset>(0, 0, -0.2)</offset></li>
+							</offsetsFemale>
+					</li>
+            		</value>
+        </li>
+        </operations>
+
+
+		</match>
+    </Operation>
+
+</Patch>

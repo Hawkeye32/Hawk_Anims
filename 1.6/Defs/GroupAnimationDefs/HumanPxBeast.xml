@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>HawkHumanPxBeast</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>HpxAPenetrator1</li>
+							<li>HpxAAnimal1</li>
+						</animationDefs>
+					</li>
+				</loopOptions>
+			</li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>10</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>HpxAPenetrator2</li>
+							<li>HpxAAnimal2</li>
+						</animationDefs>
+					</li>
+				</loopOptions>
+			</li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>HpxAPenetrator3</li>
+							<li>HpxAAnimal3</li>
+						</animationDefs>
+					</li>
+				</loopOptions>
+			</li>
+
+			<li Class="Rimworld_Animations.AnimationStage_Branch">
+				<loops>1</loops>
+				<paths>
+					<li>HPxA_Branch1</li>
+					<li>HPxA_Branch2</li>
+				</paths>
+			</li>
+		</animationStages>
+
+			<contexts>
+				<li Class="Rimworld_Animations.GroupAnimationContext">
+					<priority>1</priority>
+					<whitelist>
+						<li Class="Rimworld_Animations.PawnTest_Multi">
+							<!-- Human -->
+							<tests>
+								<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+								<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+								<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+									<interactionDefs>
+										<li>Bestiality_Anal</li>
+										<li>Bestiality_Vaginal</li>
+									</interactionDefs>
+								</li>
+							</tests>
+						</li>
+						<li Class="Rimworld_Animations.PawnTest_Multi">
+							<!-- Dog -->
+							<tests>
+								<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+								<li Class="Rimworld_Animations.PawnTest_Race">
+									<races>
+										<li>Wolf_Timber</li>
+										<li>Wolf_Arctic</li>
+										<li>Warg</li>
+										<li>Husky</li>
+										<li>LabradorRetriever</li>
+										<li MayRequire="Bichang.Kyulen">Ninetailfoxwt</li>
+										<li MayRequire="Bichang.Kyulen">Ninetailfox</li>
+									</races>
+								</li>
+							</tests>
+						</li>
+					</whitelist>
+					
+				</li>
+				<li Class="Rimworld_Animations.GroupAnimationContext">
+					<priority>1</priority>
+					<whitelist>
+						<li Class="Rimworld_Animations.PawnTest_Multi">
+							<!-- Dog -->
+							<tests>
+								<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+								<li Class="Rimworld_Animations.PawnTest_Race">
+									<races>
+										<li>Wolf_Timber</li>
+										<li>Wolf_Arctic</li>
+										<li>Warg</li>
+										<li>Husky</li>
+										<li>LabradorRetriever</li>
+										<li MayRequire="Bichang.Kyulen">Ninetailfoxwt</li>
+										<li MayRequire="Bichang.Kyulen">Ninetailfox</li>
+									</races>
+								</li>
+								<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+									<interactionDefs>
+										<li>Bestiality_Reverse_Anal</li>
+										<li>Bestiality_Reverse_Vaginal</li>
+									</interactionDefs>
+								</li>
+							</tests>
+						</li>
+						<li Class="Rimworld_Animations.PawnTest_Multi">
+							<tests>
+								<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+								<!-- Human -->
+								<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+							</tests>
+						</li>
+					</whitelist>
+				</li>
+			</contexts>
+
+			<offsetDefs>
+				<li>HawkHumanPxBeastOffsetInit</li>
+				<li>HawkHumanPxBeastOffset</li>
+			</offsetDefs>
+
+
+		</Rimworld_Animations.GroupAnimationDef>
+	
+			<Rimworld_Animations.GroupAnimationDef>
+				<defName>HPxA_Branch1</defName>
+				<numActors>2</numActors>
+				<animationStages>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>25</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>HpxAPenetratorHDom</li>
+									<li>HpxAAnimalHDom</li>
+								</animationDefs>
+
+							</li>
+						</loopOptions>
+					</li>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>1</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>HpxAPenetratorHDomC</li>
+									<li>HpxAAnimalHDomC</li>
+								</animationDefs>
+
+							</li>
+						</loopOptions>
+					</li>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>1</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>HpxAPenetratorHDomF</li>
+									<li>HpxAAnimalHDomF</li>
+								</animationDefs>
+
+							</li>
+						</loopOptions>
+					</li>
+					
+				</animationStages>
+
+				<offsetDefs>
+					<li>HawkHumanPxBeastOffsetInit</li>
+					<li>HawkHumanPxBeastOffset</li>
+				</offsetDefs>
+
+			</Rimworld_Animations.GroupAnimationDef>
+
+			<Rimworld_Animations.GroupAnimationDef>
+				<defName>HPxA_Branch2</defName>
+				<numActors>2</numActors>
+				<animationStages>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>1</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>HpxAPenetratorDom</li>
+									<li>HpxAAnimalDom</li>
+								</animationDefs>
+							</li>
+						</loopOptions>
+					</li>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>25</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>HpxAPenetratorDomH</li>
+									<li>HpxAAnimalDomH</li>
+								</animationDefs>
+							</li>
+						</loopOptions>
+					</li>
+					<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>1</loops>
+						<loopOptions>
+							<li>
+								<probability>1</probability>
+								<animationDefs>
+									<li>HpxAPenetratorDomF</li>
+									<li>HpxAAnimalDomF</li>
+								</animationDefs>
+							</li>
+						</loopOptions>
+					</li>
+				</animationStages>
+
+				<offsetDefs>
+					<li>HawkHumanPxBeastOffsetInit</li>
+					<li>HawkHumanPxBeastOffset</li>
+				</offsetDefs>
+
+			</Rimworld_Animations.GroupAnimationDef>
+		
+
+</Defs>

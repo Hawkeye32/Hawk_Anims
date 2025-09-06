@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>rjwanimaddons_hawkstuff</name>
+    <name>Rimworld Hawkeye32's RJW Animations</name>
     <author>Hawkeye32</author>
     <packageId>Hawkeye32.Hawks.Anims</packageId>
     <supportedVersions>
         <li>1.5</li>
+		<li>1.6</li>
     </supportedVersions>
     <description>
     A couple of animations for RJW 1.5 credits to Tory for xray graphics and basic fuck animation.

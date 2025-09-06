@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>PillarSpank</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>10</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>PillarSpankM1</li>
+							<li>PillarSpankS1</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+            <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>15</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>PillarSpankM2</li>
+							<li>PillarSpankS2</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			  <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>10</loops>
+				<loopOptions>
+					<li>
+						<probability>3</probability>
+						<animationDefs>
+							<li>PillarSpankM3v1</li>
+							<li>PillarSpankS3</li>
+						</animationDefs>						
+					</li>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>PillarSpankM3v2</li>
+							<li>PillarSpankS3</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+		</animationStages>
+		
+		<contexts>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Sex_Fisting</li>
+									<li>Sex_Fingering</li>
+								</interactionDefs>
+							</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						<!-- Human -->
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Sex_Reverse_Fisting</li>
+									<li>Sex_Reverse_Fingering</li>
+								</interactionDefs>
+							</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						<!-- Human -->
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+		</contexts>
+
+		<offsetDefs>
+			<li>PillarSpankOffsetInit</li>
+			<li>PillarSpankOffsetRec</li>
+		</offsetDefs>
+
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>

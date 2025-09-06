@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>HawkBeastDoggy</defName>
+		<numActors>2</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>DoggyDog1</li>
+							<li>DoggyReciever1</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+			</li>
+				<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>15</loops>
+						<loopOptions>
+							<li>
+								<probability>3</probability>
+								<animationDefs>
+									<li>DoggyDog2</li>
+									<li>DoggyReciever2</li>
+								</animationDefs>
+							</li>
+						</loopOptions>	
+                </li>
+				<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>1</loops>
+						<loopOptions>
+							<li>
+								<probability>3</probability>
+								<animationDefs>
+									<li>DoggyDogT1</li>
+									<li>DoggyRecieverT1</li>
+								</animationDefs>
+							</li>
+						</loopOptions>						
+				</li>
+				<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>10</loops>
+						<loopOptions>
+							<li>
+								<probability>3</probability>
+								<animationDefs>
+									<li>DoggyDog3</li>
+									<li>DoggyReciever3</li>
+								</animationDefs>
+							</li>
+						</loopOptions>						
+				</li>
+				<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+						<loops>1</loops>
+						<loopOptions>
+							<li>
+								<probability>3</probability>
+								<animationDefs>
+									<li>DoggyDogKnot</li>
+									<li>DoggyRecieverKnot</li>
+								</animationDefs>
+							</li>
+						</loopOptions>
+                </li>
+		</animationStages>
+		
+		<contexts>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+			<priority>1</priority>
+			<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Dog -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Race">
+								<races>
+									<li>Wolf_Timber</li>
+									<li>Wolf_Arctic</li>
+									<li>Warg</li>
+									<li>Husky</li>
+									<li>LabradorRetriever</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+									<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
+									<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
+									
+								</races>
+							</li>
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Bestiality_Anal</li>
+									<li>Bestiality_Vaginal</li>
+								</interactionDefs>
+							</li>
+						</tests>
+					</li>
+				<li Class="Rimworld_Animations.PawnTest_Multi">
+					<!-- Human -->
+					<tests>
+						<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+					</tests>
+				</li>
+				</whitelist>
+				
+				
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" /> <!-- Human -->
+							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Bestiality_Reverse_Anal</li>
+									<li>Bestiality_Reverse_Vaginal</li>
+								</interactionDefs>
+							</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi"> <!-- Dog -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Race">
+								<races>
+									<li>Wolf_Timber</li>
+									<li>Wolf_Arctic</li>
+									<li>Warg</li>
+									<li>Husky</li>
+									<li>LabradorRetriever</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+									<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
+									<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
+								</races>
+							</li>
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+		</contexts>
+
+		<offsetDefs>
+			<li>HawkBeastDoggyOffsetInit</li>
+			<li>HawkBeastDoggyOffset</li>
+		</offsetDefs>
+
+	
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>

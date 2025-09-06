@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayDVert</defName>
+        <variants>
+            <li>AnimationProps/Xray/Dick/XRVert-Dick1</li>
+			<li>AnimationProps/Xray/Dick/XRVert-Dick2</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayOVert</defName>
+        <variants>
+            <li>AnimationProps/Xray/Overlay/XRVert-Overlay1</li>
+			<li>AnimationProps/Xray/Overlay/XRVert-Overlay2</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+    
+    <Rimworld_Animations.texPathVariantsDef>
+        <defName>TexPathVariants_XrayCVert</defName>
+        <variants>
+            <li>AnimationProps/Xray/Cum/XRVert-Cum1</li>
+			<li>AnimationProps/Xray/Cum/XRVert-Cum2</li>
+        </variants>
+    </Rimworld_Animations.texPathVariantsDef>
+
+</Defs>

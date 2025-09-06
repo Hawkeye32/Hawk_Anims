@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Rimworld_Animations.AnimationPropDef Name="BaseAnimationProp_GraphicVariantsHawk" Abstract="True">
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>80</baseLayer>
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+	<PawnRenderNodeTagDef>
+		<defName>RenderNodeTag_Vagina</defName>
+	</PawnRenderNodeTagDef>
+
+	<Rimworld_Animations.AnimationPropDef ParentName="BaseAnimationProp_GraphicVariantsHawk">
+		<defName>AnimationProp_Vagina</defName>		
+		<!-- Note: props always return graphic_multi; set cardinal textures to blank and only north in anim if only one tex-->
+		<!-- or draw east, south, and west directions, use them in animations? -->
+		<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+			<debugLabel>AnimProp_Vagina</debugLabel>			
+			<tagDef>RenderNodeTag_Vagina</tagDef>
+			<parentTagDef></parentTagDef>
+			<texPath>AnimationProps/Vagina/Vagina_south</texPath>
+            <texPathVariantsDef>TexPathVariants_Vagina</texPathVariantsDef>
+			<colorType>Skin</colorType>
+			<useSkinShader>True</useSkinShader>
+			<propOffsetDef>PropOffsetDef_Vagina</propOffsetDef>				
+		</animPropProperties>
+
+		<alternateProps>
+			<li>
+				<tests>
+					<li Class="Rimworld_Animations.PawnTest_Race">
+						<races>
+							<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko_BlackSnake</li>
+						</races>
+					</li>
+				</tests> 
+				<props ParentName="BaseAnimationProp_GraphicVariantsHawk">
+					<debugLabel>AnimProp_Vagina</debugLabel>		
+					<tagDef>RenderNodeTag_Vagina</tagDef>
+					<parentTagDef></parentTagDef>
+					<texPath>AnimationProps/Vagina/BSYuran_Vagina_south</texPath>
+					<texPathVariantsDef>TexPathVariants_BSYuran_Vagina</texPathVariantsDef>
+					<colorType>Skin</colorType>
+					<useSkinShader>False</useSkinShader>
+					<propOffsetDef>PropOffsetDef_Vagina</propOffsetDef>
+				</props>
+			</li>
+			<li>
+				<tests>
+					<li Class="Rimworld_Animations.PawnTest_Race">
+						<races>
+							<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race</li>
+							<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko</li>
+						</races>
+					</li>
+				</tests>
+				<props ParentName="BaseAnimationProp_GraphicVariantsHawk">
+					<debugLabel>AnimProp_Vagina</debugLabel>
+					<tagDef>RenderNodeTag_Vagina</tagDef>
+					<parentTagDef></parentTagDef>
+					<texPath>AnimationProps/Vagina/Yuran_Vagina_south</texPath>
+					<texPathVariantsDef>TexPathVariants_Yuran_Vagina</texPathVariantsDef>
+					<colorType>Skin</colorType>
+					<useSkinShader>False</useSkinShader>
+					<propOffsetDef>PropOffsetDef_Vagina</propOffsetDef>
+				</props>
+			</li>
+			<li>
+				<tests>
+					<li Class="Rimworld_Animations.PawnTest_Race">
+						<races>
+							<li MayRequire="VAMV.MaruRaceMod">Maru</li>
+						</races>
+					</li>
+				</tests>
+				<props ParentName="BaseAnimationProp_GraphicVariantsHawk">
+					<debugLabel>AnimProp_Vagina</debugLabel>
+					<tagDef>RenderNodeTag_Vagina</tagDef>
+					<parentTagDef></parentTagDef>
+					<texPath>AnimationProps/Vagina/Maru_Vagina_south</texPath>
+					<texPathVariantsDef>TexPathVariants_Maru_Vagina</texPathVariantsDef>
+					<colorType>Skin</colorType>
+					<useSkinShader>False</useSkinShader>
+					<propOffsetDef>PropOffsetDef_Vagina</propOffsetDef>
+				</props>
+			</li>
+		</alternateProps>
+	</Rimworld_Animations.AnimationPropDef>
+
+</Defs>

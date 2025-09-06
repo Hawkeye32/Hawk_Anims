@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.AnimationOffsetDef>
+		<defName>PropOffsetDef_HandSt2</defName>
+		<offsets>
+
+			<li Class="Rimworld_Animations.AnimationOffset_BodyType">
+				<races>
+					<li>Human</li>
+				</races>
+				<offsets>
+				</offsets>
+			</li>
+		</offsets>
+	</Rimworld_Animations.AnimationOffsetDef>
+</Defs>
+	

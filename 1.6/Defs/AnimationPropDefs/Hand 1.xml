@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+        <PawnRenderNodeTagDef>
+            <defName>RenderNodeTag_HandSt</defName>
+        </PawnRenderNodeTagDef>
+
+    <Rimworld_Animations.AnimationPropDef>
+		<defName>AnimationProp_HandSt</defName>	
+			<animPropProperties Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
+            <debugLabel>AnimProp_HandSt</debugLabel>		
+			<tagDef>RenderNodeTag_HandSt</tagDef>
+			<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+			<workerClass >Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass >
+			<parentTagDef>Body</parentTagDef>
+			<texPath>AnimationProps/Hand/Hand</texPath>
+			<overlayLayer>Head</overlayLayer>
+			<baseLayer>80</baseLayer>		
+			<colorType>Skin</colorType>
+			<useSkinShader>True</useSkinShader>
+			<propOffsetDef>PropOffsetDef_HandSt1</propOffsetDef>
+		</animPropProperties>
+	</Rimworld_Animations.AnimationPropDef>
+
+</Defs>
