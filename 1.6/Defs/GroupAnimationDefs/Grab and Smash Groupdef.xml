@@ -59,13 +59,17 @@
 					<li Class="Rimworld_Animations.PawnTest_Multi">
 					<!-- Human -->
 						<tests>
-							<li Class="Rimworld_Animations.PawnTest_Race">
-									<races>
-										<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
-										<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
-									</races>
+							<li Class="Rimworld_Animations.PawnTest_Or">
+								<tests>
+									<li Class="Rimworld_Animations.PawnTest_Race">
+										<races>
+											<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
+											<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
+										</races>
+									</li>
+									<li Class="Rimworld_Animations.PawnTest_Humanlike"/>
+								</tests>
 							</li>
-							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 						</tests>
 					</li>
 				</whitelist>
@@ -90,12 +94,17 @@
 									<li>Bestiality_Reverse_Vaginal</li>
 								</interactionDefs>
 							</li>
-							<li Class="Rimworld_Animations.PawnTest_Race">
+							<li Class="Rimworld_Animations.PawnTest_Or">
+								<tests>
+								<li Class="Rimworld_Animations.PawnTest_Race">
 									<races>
 										<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
 										<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
 									</races>
 								</li>
+								<li Class="Rimworld_Animations.PawnTest_Humanlike"/>
+								</tests>
+							</li>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 						</tests>
 					</li>

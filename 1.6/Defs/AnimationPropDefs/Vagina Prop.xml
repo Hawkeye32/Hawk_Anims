@@ -31,16 +31,18 @@
 
 		<alternateProps>
 			<li>
-				<tests>
-					<li Class="Rimworld_Animations.PawnTest_Race">
+				<test Class="Rimworld_Animations.PawnTest_Race">
 						<races>
 							<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko_BlackSnake</li>
 						</races>
-					</li>
-				</tests> 
-				<props ParentName="BaseAnimationProp_GraphicVariantsHawk">
+				</test> 
+				<props Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
 					<debugLabel>AnimProp_Vagina</debugLabel>		
 					<tagDef>RenderNodeTag_Vagina</tagDef>
+					<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+					<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>
+					<overlayLayer>Head</overlayLayer>
+					<baseLayer>80</baseLayer>
 					<parentTagDef></parentTagDef>
 					<texPath>AnimationProps/Vagina/BSYuran_Vagina_south</texPath>
 					<texPathVariantsDef>TexPathVariants_BSYuran_Vagina</texPathVariantsDef>
@@ -50,17 +52,19 @@
 				</props>
 			</li>
 			<li>
-				<tests>
-					<li Class="Rimworld_Animations.PawnTest_Race">
+				<test Class="Rimworld_Animations.PawnTest_Race">
 						<races>
 							<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race</li>
 							<li MayRequire="RooAndGloomy.YuranRaceMod">Yuran_Race_Miko</li>
 						</races>
-					</li>
-				</tests>
-				<props ParentName="BaseAnimationProp_GraphicVariantsHawk">
+				</test>
+				<props Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants" >
 					<debugLabel>AnimProp_Vagina</debugLabel>
 					<tagDef>RenderNodeTag_Vagina</tagDef>
+					<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+					<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>
+					<overlayLayer>Head</overlayLayer>
+					<baseLayer>80</baseLayer>
 					<parentTagDef></parentTagDef>
 					<texPath>AnimationProps/Vagina/Yuran_Vagina_south</texPath>
 					<texPathVariantsDef>TexPathVariants_Yuran_Vagina</texPathVariantsDef>
@@ -70,16 +74,18 @@
 				</props>
 			</li>
 			<li>
-				<tests>
-					<li Class="Rimworld_Animations.PawnTest_Race">
+				<test Class="Rimworld_Animations.PawnTest_Race">
 						<races>
 							<li MayRequire="VAMV.MaruRaceMod">Maru</li>
 						</races>
-					</li>
-				</tests>
-				<props ParentName="BaseAnimationProp_GraphicVariantsHawk">
+				</test>
+				<props Class="Rimworld_Animations.PawnRenderNodeProperties_GraphicVariants">
 					<debugLabel>AnimProp_Vagina</debugLabel>
 					<tagDef>RenderNodeTag_Vagina</tagDef>
+					<nodeClass>Rimworld_Animations.PawnRenderNode_GraphicVariants</nodeClass>
+					<workerClass>Rimworld_Animations.PawnRenderNodeWorker_GraphicVariants</workerClass>
+					<overlayLayer>Head</overlayLayer>
+					<baseLayer>80</baseLayer>
 					<parentTagDef></parentTagDef>
 					<texPath>AnimationProps/Vagina/Maru_Vagina_south</texPath>
 					<texPathVariantsDef>TexPathVariants_Maru_Vagina</texPathVariantsDef>
