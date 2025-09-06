@@ -83,6 +83,12 @@
 				<whitelist>
 					<li Class="Rimworld_Animations.PawnTest_Multi">
 						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<!-- Human -->
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
 								<interactionDefs>
@@ -90,12 +96,6 @@
 									<li>Sex_Reverse_Vaginal</li>
 								</interactionDefs>
 							</li>
-						</tests>
-					</li>
-					<li Class="Rimworld_Animations.PawnTest_Multi">
-						<tests>
-						<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-						<!-- Human -->
 						</tests>
 					</li>
 				</whitelist>
