@@ -153,21 +153,6 @@
 					</li>
             		</value>
         </li>
-		 <li Class="PatchOperationAdd">
-    		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "PropOffsetDef_Vagina"]/offsets</xpath>
-            		<value>
-					<li Class="Rimworld_Animations.AnimationOffset_BodyTypeGendered" MayRequire="erdelf.HumanoidAlienRaces,dianawinters.Orassans">
-							<races>
-							<li>Yuran_Race</li>
-							</races>
-							<offsetsMale>
-							</offsetsMale>
-							<offsetsFemale>
-							<li><bodyType>Thin</bodyType><offset>(0, 0, 0.148)</offset></li>
-							</offsetsFemale>
-					</li>
-            		</value>
-        </li>
  		 <li Class="PatchOperationAdd">
     		<xpath>Defs/Rimworld_Animations.AnimationOffsetDef[defName = "Offset_Missionary_Receiver"]/offsets</xpath>
             		<value>

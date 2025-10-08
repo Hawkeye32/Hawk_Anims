@@ -16,9 +16,15 @@
 				<races>
 					<li>Yuran_Race</li>
 					<li>Yuran_Race_Miko</li>
+				</races>
+				<offset>(0, 0.105, 0.508)</offset>
+			</li>
+
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="RooAndGloomy.YuranRaceMod">
+				<races>
 					<li>Yuran_Race_Miko_BlackSnake</li>
 				</races>
-				<offset>(0, 0.105, 0)</offset>
+				<offset>(0.012, 0.105, 0.508)</offset>
 			</li>
 			
 			<li Class="Rimworld_Animations.AnimationOffset_Single">

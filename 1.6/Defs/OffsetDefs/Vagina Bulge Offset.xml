@@ -12,25 +12,11 @@
 				</offsets>
 			</li>
 
-			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="Inoshishi3.KTTFDE">
-				<races>
-					<li>Kurin</li>
-				</races>
-				<offset>(0, 1, 0.145)</offset>
-			</li>
-
-			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="miho.fortifiedoutremer">
-				<races>
-					<li>Alien_Miho</li>
-				</races>
-				<offset>(0, 1, 0.274)</offset>
-			</li>
-
 			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="RooAndGloomy.YuranRaceMod">
 				<races>
 					<li>Yuran_Race_Miko_BlackSnake</li>
 				</races>
-				<offset>(0.10, -0.01, 0.505)</offset>
+				<offset>(0, -0.01, 0.505)</offset>
 			</li>
 
 			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="VAMV.MaruRaceMod">
