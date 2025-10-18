@@ -79,28 +79,6 @@
 					</li>
 				</whitelist>
 			</li>
-			<li Class="Rimworld_Animations.GroupAnimationContext">
-				<priority>1</priority>
-				<whitelist>
-					<li Class="Rimworld_Animations.PawnTest_Multi">
-						<tests>
-							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
-							<!-- Human -->
-						</tests>
-					</li>
-					<li Class="Rimworld_Animations.PawnTest_Multi">
-						<tests>
-							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
-							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
-								<interactionDefs>
-									<li>Rape_Reverse_Vaginal</li>
-									<li>Rape_Reverse_Anal</li>
-								</interactionDefs>
-							</li>
-						</tests>
-					</li>
-				</whitelist>
-			</li>
 		</contexts>
 
 		<offsetDefs>

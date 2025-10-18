@@ -54,6 +54,7 @@
 								<li>Bestiality_Vaginal</li>
 							</interactionDefs>
 						</li>
+						<li Class="Rimworld_Animations.PawnTest_Humanlike" />
 						</tests>
 					</li>
 					<li Class="Rimworld_Animations.PawnTest_Multi">
@@ -81,6 +82,7 @@
 					<li Class="Rimworld_Animations.PawnTest_Multi">
 						<tests>
 							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_HumanLike" />
 							<!-- Human -->
 						</tests>
 					</li>
