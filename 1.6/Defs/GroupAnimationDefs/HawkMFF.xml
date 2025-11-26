@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Rimworld_Animations.GroupAnimationDef>
+		<defName>HawkMFFFuck</defName>
+		<numActors>3</numActors>
+		<animationStages>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Male_2F1M1</li>
+							<li>Female1_2F1M1</li>
+							<li>Female2_2F1M1</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>20</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Male_2F1M2</li>
+							<li>Female1_2F1M2</li>
+							<li>Female2_2F1M2</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+            <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Male_2F1M3</li>
+							<li>Female1_2F1M3</li>
+							<li>Female2_2F1M3</li>
+						</animationDefs>					
+					</li>
+				</loopOptions>
+            </li>
+			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>20</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Male_2F1M4</li>
+							<li>Female1_2F1M4</li>
+							<li>Female2_2F1M4</li>
+						</animationDefs>						
+					</li>
+				</loopOptions>
+            </li>
+			 <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
+				<loops>1</loops>
+				<loopOptions>
+					<li>
+						<probability>1</probability>
+						<animationDefs>
+							<li>Male_2F1M5</li>
+							<li>Female1_2F1M5</li>
+							<li>Female2_2F1M5</li>
+						</animationDefs>					
+					</li>
+				</loopOptions>
+            </li>
+		</animationStages>
+		
+		<contexts>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+						<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+						<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+						<!-- Human -->
+						<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+							<interactionDefs>
+								<li>Sex_Anal</li>
+								<li>Sex_Vaginal</li>
+							</interactionDefs>
+						</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Dog -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Dog -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+							<!-- Human -->
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Sex_Reverse_Anal</li>
+									<li>Sex_Reverse_Vaginal</li>
+								</interactionDefs>
+							</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+							<!-- Human -->
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs>
+									<li>Sex_Reverse_Anal</li>
+									<li>Sex_Reverse_Vaginal</li>
+								</interactionDefs>
+							</li>
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+		</contexts>
+
+		<offsetDefs>
+			<li>HawkMFFInit</li>
+			<li>HawkMFFRec1</li>
+			<li>HawkMFFRec2</li>
+		</offsetDefs>
+
+	</Rimworld_Animations.GroupAnimationDef>
+</Defs>
