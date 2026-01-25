@@ -1,41 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<Rimworld_Animations.GroupAnimationDef>
-		<defName>FHumMDogFObs</defName>
+		<defName>2DogSpit</defName>
 		<numActors>3</numActors>
 		<animationStages>
 			<li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-				<loops>20</loops>
+				<loops>1</loops>
 				<loopOptions>
 					<li>
-						<probability>3</probability>
+						<probability>1</probability>
 						<animationDefs>
-							<li>Female_InitiatorS1</li>
-							<li>Male_AnimalS1</li>
-                            <li>Female_ObserverS1</li>
+							<li>FemaleSpit1</li>
+							<li>Mdog1spit</li>
+                            <li>Mdog2spit</li>
 						</animationDefs>						
 					</li>
 				</loopOptions>
 			</li>
             <li Class="Rimworld_Animations.AnimationStage_LoopRandomSelectChance">
-				<loops>20</loops>
+				<loops>30</loops>
 				<loopOptions>
 					<li>
 						<probability>2</probability>
 						<animationDefs>
-							<li>Female_InitiatorS2SL</li>
-							<li>Male_AnimalS2SL</li>
-                            <li>Female_ObserverS2SL</li>
-						</animationDefs>						
-					</li>
-				</loopOptions>
-                <loopOptions>
-					<li>
-						<probability>1</probability>
-						<animationDefs>
-							<li>Female_InitiatorS2F</li>
-							<li>Male_AnimalS2F</li>
-                            <li>Female_ObserverS2F</li>
+							<li>Female_2spit</li>
+							<li>Mdog1_2spit</li>
+                            <li>Mdog2_2spit</li>
 						</animationDefs>						
 					</li>
 				</loopOptions>
@@ -46,9 +36,9 @@
 					<li>
 						<probability>1</probability>
 						<animationDefs>
-							<li>Female_InitiatorS3</li>
-							<li>Male_AnimalS3</li>
-                            <li>Female_ObserverS3</li>
+							<li>Female_3spit</li>
+							<li>Mdog1_3spit</li>
+                            <li>Mdog2_3spit</li>
 						</animationDefs>						
 					</li>
 				</loopOptions>
@@ -64,10 +54,7 @@
 							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
 							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
 							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
-								<interactionDefs>
-									<li>Bestiality_Anal</li>
-									<li>Bestiality_Vaginal</li>
-								</interactionDefs>
+								<interactionDefs/>
 							</li>
 						</tests>
 					</li>
@@ -90,17 +77,27 @@
 				<li Class="Rimworld_Animations.PawnTest_Multi">
 					<!-- Human -->
 					<tests>
-						<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
-						<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+						<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+                            <li Class="Rimworld_Animations.PawnTest_Race">
+                                <races>
+                                    <li>Wolf_Timber</li>
+                                    <li>Wolf_Arctic</li>
+                                    <li>Warg</li>
+                                    <li>Husky</li>
+                                    <li>LabradorRetriever</li>
+                                    <li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+                                    <li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+                                </races>
+                            </li>
 					</tests>
 				</li>
 				</whitelist>
 			</li>
 		</contexts>
 		<offsetDefs>
-			<li>FemaleDogObsInit</li>
-			<li>FemaleDogObsDog</li>
-            <li>FemaleDogObsObs</li>
+			<li>2DogSpitObsInit</li>
+			<li>2DogSpitObsDog</li>
+            <li>2DogSpit2Dog</li>
 		</offsetDefs>
 		
 	</Rimworld_Animations.GroupAnimationDef>
