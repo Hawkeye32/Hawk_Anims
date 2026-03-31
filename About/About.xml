@@ -4,12 +4,11 @@
     <author>Hawkeye32</author>
     <packageId>Hawkeye32.Hawks.Anims</packageId>
     <supportedVersions>
-        <li>1.5</li>
-		<li>1.6</li>
+      <li>1.5</li>
+		  <li>1.6</li>
     </supportedVersions>
     <description>
-    A couple of animations for RJW 1.5 credits to Tory for xray graphics and basic fuck animation.
-    Also requires Sextra2 animation pack from Tory for some sounds.
+    A couple of animations for RJW credits to Tory for xray graphics and basic fuck animation.
     </description>
     <modDependencies>
 		<li>
