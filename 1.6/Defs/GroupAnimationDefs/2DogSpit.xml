@@ -93,6 +93,109 @@
 				</li>
 				</whitelist>
 			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+					
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Dog -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Race">
+								<races>
+									<li>Wolf_Timber</li>
+									<li>Wolf_Arctic</li>
+									<li>Warg</li>
+									<li>Husky</li>
+									<li>LabradorRetriever</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+								</races>
+							</li>
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs/>
+							</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Human -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+							
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Human -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Race">
+								<races>
+									<li>Wolf_Timber</li>
+									<li>Wolf_Arctic</li>
+									<li>Warg</li>
+									<li>Husky</li>
+									<li>LabradorRetriever</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+								</races>
+							</li>
+						</tests>
+					</li>
+				</whitelist>
+			</li>
+			<li Class="Rimworld_Animations.GroupAnimationContext">
+				<priority>1</priority>
+				<whitelist>
+
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Dog -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Race">
+								<races>
+									<li>Wolf_Timber</li>
+									<li>Wolf_Arctic</li>
+									<li>Warg</li>
+									<li>Husky</li>
+									<li>LabradorRetriever</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+								</races>
+							</li>
+						</tests>
+					</li>
+					
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Human -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanFuck" />
+							<li Class="Rimworld_Animations.PawnTest_Race">
+								<races>
+									<li>Wolf_Timber</li>
+									<li>Wolf_Arctic</li>
+									<li>Warg</li>
+									<li>Husky</li>
+									<li>LabradorRetriever</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfoxwt</li>
+									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
+								</races>
+							</li>
+							<li Class="Rimworld_Animations.PawnTest_RJWInitiator">
+								<interactionDefs/>
+							</li>
+						</tests>
+					</li>
+					<li Class="Rimworld_Animations.PawnTest_Multi">
+						<!-- Human -->
+						<tests>
+							<li Class="Rimworld_Animations.PawnTest_RJWCanBeFucked" />
+							<li Class="Rimworld_Animations.PawnTest_Humanlike" />
+
+						</tests>
+					</li>
+				</whitelist>
+			</li>
 		</contexts>
 		<offsetDefs>
 			<li>2DogSpitObsInit</li>

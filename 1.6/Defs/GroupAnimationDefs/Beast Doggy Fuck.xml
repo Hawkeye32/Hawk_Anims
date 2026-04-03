@@ -84,14 +84,14 @@
 									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
 									<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
 									<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
-									<li>Dryad_Basic</li>
-									<li>Dryad_Woodmaker</li>
-									<li>Dryad_Berrymaker</li>
-									<li>Dryad_Medicinemaker</li>
-									<li>Dryad_Gaumaker</li>
-									<li>Dryad_Carrier</li>
-									<li>Dryad_Clawer</li>
-									<li>Dryad_Barkskin</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Basic</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Woodmaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Berrymaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Medicinemaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Gaumaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Carrier</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Clawer</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Barkskin</li>
 									
 								</races>
 							</li>
@@ -132,14 +132,14 @@
 									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
 									<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
 									<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
-									<li>Dryad_Basic</li>
-									<li>Dryad_Woodmaker</li>
-									<li>Dryad_Berrymaker</li>
-									<li>Dryad_Medicinemaker</li>
-									<li>Dryad_Gaumaker</li>
-									<li>Dryad_Carrier</li>
-									<li>Dryad_Clawer</li>
-									<li>Dryad_Barkskin</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Basic</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Woodmaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Berrymaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Medicinemaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Gaumaker</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Carrier</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Clawer</li>
+									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Barkskin</li>
 								</races>
 							</li>
 						</tests>
