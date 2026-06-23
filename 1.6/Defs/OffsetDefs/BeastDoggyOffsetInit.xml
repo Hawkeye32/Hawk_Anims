@@ -31,9 +31,9 @@
 				<rotation>0</rotation>
 			</li>
 
-			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="MD_MilkDragon">
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="HalituisAmaricanous.MilkDragon">
 				<races>
-					<li>Milk_Dragon</li>
+					<li>MD_MilkDragon</li>
 				</races>
 				<li>
 					<offset>(0.9, 0, 0.3)</offset>
