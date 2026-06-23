@@ -35,9 +35,7 @@
 				<races>
 					<li>MD_MilkDragon</li>
 				</races>
-				<li>
-					<offset>(0.9, 0, 0.3)</offset>
-				</li>
+				<offset>(0.9, 0, 0.3)</offset>
 				<rotation>0</rotation>
 			</li>
 			
