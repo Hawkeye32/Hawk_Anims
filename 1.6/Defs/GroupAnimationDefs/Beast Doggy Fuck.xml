@@ -92,6 +92,7 @@
 									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Carrier</li>
 									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Clawer</li>
 									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Barkskin</li>
+									<li Mayrequire="HalituisAmaricanous.MilkDragon">MD_MilkDragon</li>
 									
 								</races>
 							</li>
@@ -140,6 +141,7 @@
 									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Carrier</li>
 									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Clawer</li>
 									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Barkskin</li>
+									<li Mayrequire="HalituisAmaricanous.MilkDragon">MD_MilkDragon</li>
 								</races>
 							</li>
 						</tests>
