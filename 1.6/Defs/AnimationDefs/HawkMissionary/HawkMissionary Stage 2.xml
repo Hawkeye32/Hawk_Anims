@@ -247,6 +247,7 @@
               <tick>0</tick>
               <angle>180</angle>
               <visible>true</visible>
+              <offset>(0, -0.5, 0)</offset>
               <rotation>South</rotation>
             </li>
           </keyframes>

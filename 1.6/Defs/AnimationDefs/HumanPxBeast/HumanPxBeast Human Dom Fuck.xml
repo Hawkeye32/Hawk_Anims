@@ -13,21 +13,21 @@
               <tick>0</tick>
               <angle>5</angle>
               <visible>true</visible>
-              <offset>(-0.4881742, 0, 0.03405869)</offset>
+              <offset>(-0.2881742, -0.3, 0.03405869)</offset>
               <rotation>East</rotation>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
               <tick>5</tick>
               <angle>20</angle>
               <visible>true</visible>
-              <offset>(-0.4881742, 0, 0.03405869)</offset>
+              <offset>(-0.2881742, -0.3, 0.03405869)</offset>
               <rotation>East</rotation>
             </li>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
               <tick>10</tick>
               <angle>-10</angle>
               <visible>true</visible>
-              <offset>(-0.4881742, 0, 0.03405869)</offset>
+              <offset>(-0.2881742, -0.3, 0.03405869)</offset>
               <rotation>East</rotation>
               <sound>Fuck</sound>
             </li>
@@ -35,7 +35,7 @@
               <tick>20</tick>
               <angle>5</angle>
               <visible>true</visible>
-              <offset>(-0.4881742, 0, 0.03405869)</offset>
+              <offset>(-0.2881742, -0.3, 0.03405869)</offset>
               <rotation>East</rotation>
             </li>
           </keyframes>
@@ -105,7 +105,21 @@
           <keyframes>
             <li Class="Rimworld_Animations.ExtendedKeyframe">
               <tick>0</tick>
-              <angle>30</angle>
+              <angle>45</angle>
+              <visible>true</visible>
+              <offset>(0, -0.3, 0)</offset>
+              <rotation>East</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>10</tick>
+              <angle>45</angle>
+              <visible>true</visible>
+              <offset>(0, -0.3, 0)</offset>
+              <rotation>East</rotation>
+            </li>
+            <li Class="Rimworld_Animations.ExtendedKeyframe">
+              <tick>15</tick>
+              <angle>45</angle>
               <visible>true</visible>
               <offset>(0, -0.3, 0)</offset>
               <rotation>East</rotation>

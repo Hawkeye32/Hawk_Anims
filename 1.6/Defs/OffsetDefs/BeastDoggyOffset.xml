@@ -39,6 +39,14 @@
 				<offset>(0.15, 0, 0.3)</offset>
 				<rotation>-80</rotation>
 			</li>
+
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="MD_MilkDragon">
+				<races>
+					<li>Milk_Dragon</li>
+				</races>
+				<offset>(-0.2, 0, 0.6)</offset>
+				<rotation>0</rotation>
+			</li>
 		</offsets>
 	</Rimworld_Animations.AnimationOffsetDef>
 </Defs>

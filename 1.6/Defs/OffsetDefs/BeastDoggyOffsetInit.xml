@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<Rimworld_Animations.AnimationOffsetDef>
 		<defName>HawkBeastDoggyOffsetInit</defName>
@@ -30,6 +30,17 @@
 				</races>
 				<rotation>0</rotation>
 			</li>
+
+			<li Class="Rimworld_Animations.AnimationOffset_Single" MayRequire="MD_MilkDragon">
+				<races>
+					<li>Milk_Dragon</li>
+				</races>
+				<li>
+					<offset>(0.9, 0, 0.3)</offset>
+				</li>
+				<rotation>0</rotation>
+			</li>
+			
 		</offsets>
 	</Rimworld_Animations.AnimationOffsetDef>
 </Defs>
