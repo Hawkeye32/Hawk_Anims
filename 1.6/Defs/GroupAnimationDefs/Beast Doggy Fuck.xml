@@ -133,15 +133,15 @@
 									<li MayRequire = "Bichang.Kyulen">Ninetailfox</li>
 									<li MayRequire="HouseMaidNukos1.5bysaltbabe">Maidnukos</li>
 									<li MayRequire="HouseMaidNukos1.5bysaltbabe">SeniorMaidnukos</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Basic</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Woodmaker</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Berrymaker</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Medicinemaker</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Gaumaker</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Carrier</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Clawer</li>
-									<li Mayrequire="Ludeon.RimWorld.Ideology">Dryad_Barkskin</li>
-									<li Mayrequire="HalituisAmaricanous.MilkDragon">MD_MilkDragon</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Basic</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Woodmaker</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Berrymaker</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Medicinemaker</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Gaumaker</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Carrier</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Clawer</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Dryad_Barkskin</li>
+									<li MayRequire="HalituisAmaricanous.MilkDragon">MD_MilkDragon</li>
 								</races>
 							</li>
 						</tests>
